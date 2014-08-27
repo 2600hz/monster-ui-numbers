@@ -1,0 +1,39 @@
+{
+	"name": "numbers",
+	"source_url": "http://webdev/monster-modules/numbers",
+	"i18n": {
+		"en-US": {
+			"label": "Number Manager",
+			"description": "Number Manager app allows you to easily buy, port and manage all numbers in your account.",
+			"extended_description": "When you're managing a PBX or running a business there are more numbers in your hands than you can manage. Number Manager allows you to easily purchase and delete numbers, port numbers away from other carriers, and assign them to your own clients.",
+			"features": [
+				"Purchase new numbers",
+				"Delete numbers",
+				"Port numbers from other carriers",
+				"Set a Caller ID for each number",
+				"Set a Failover Number",
+				"Associate e911 address to each number"
+			]
+		}
+	},
+	"tags": [
+		"reseller",
+		"developer"
+	],
+	"icon": "NumberManager_app.png",
+	"api_url": "http://10.26.0.41:8000/v2",
+	"author": "2600Hz",
+	"version": "1.0",
+	"license": "-",
+	"price": 0,
+	"screenshots": [
+		"numbermanager1.png",
+		"numbermanager2.png",
+		"numbermanager3.png"
+	],
+	"urls": {
+		"documentation": "{documentation_url}",
+		"howto": "{howto_video_url}"
+	},
+	"pvt_type": "app"
+}
