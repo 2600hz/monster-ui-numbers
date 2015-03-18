@@ -1,6 +1,5 @@
 {
 	"name": "numbers",
-	"source_url": "http://webdev/monster-modules/numbers",
 	"i18n": {
 		"en-US": {
 			"label": "Number Manager",
