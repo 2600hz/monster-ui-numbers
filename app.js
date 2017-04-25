@@ -38,7 +38,7 @@ define(function(require){
 
 		render: function(parent){
 			var self = this,
-				parent = parent || $('#monster-content');
+				parent = parent || $('#monster_content');
 
 			var numberManager = $(monster.template(self, 'app'));
 
