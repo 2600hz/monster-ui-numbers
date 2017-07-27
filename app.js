@@ -1,4 +1,4 @@
-define(function(require){
+define(function(require) {
 	var $ = require('jquery'),
 		monster = require('monster');
 
@@ -7,7 +7,7 @@ define(function(require){
 
 		css: [ 'app' ],
 
-		i18n: { 
+		i18n: {
 			'en-US': { customCss: false },
 			'fr-FR': { customCss: false },
 			'ru-RU': { customCss: false }
@@ -19,7 +19,7 @@ define(function(require){
 		subscribe: {
 		},
 
-		load: function(callback){
+		load: function(callback) {
 			var self = this;
 
 			self.initApp(function() {
@@ -36,7 +36,7 @@ define(function(require){
 			});
 		},
 
-		render: function(parent){
+		render: function(parent) {
 			var self = this,
 				parent = parent || $('#monster_content');
 
@@ -50,7 +50,7 @@ define(function(require){
 						.append(numberControl);
 				}
 			});
-		},
+		}
 	};
 
 	return app;
