@@ -40,7 +40,9 @@ define(function(require) {
 			var self = this,
 				parent = parent || $('#monster_content');
 
-			var numberManager = $(monster.template(self, 'app'));
+			var numberManager = $(self.getTemplate({
+				name: 'app'
+			}));
 
 			monster.pub('common.numbers.render', {
 				container: numberManager,
