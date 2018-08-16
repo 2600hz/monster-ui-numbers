@@ -2,7 +2,7 @@
 	"name": "numbers",
 	"i18n": {
 		"de-DE": {
-			"label": "Numbers (Nummern)",
+			"label": "Nummern",
 			"description": "Mithilfe der Numbers-App können Sie Nummern kaufen, portieren und in Ihrem Account ganz leicht verwalten.",
 			"extended_description": "Die Numbers-App ermöglicht es Ihnen, eine Grundauswahl von Telefonnummern zu erwerben und in einem Master-Account zu verwalten. Von dort aus können Nummern dann an Kunden zur Nutzung weitergegeben werden. Werden die Nummern nicht mehr benötigt, können sie jederzeit problemlos zurückgeholt und anderen Kunden zugewiesen werden. Nummernblöcke und Dienste können auch reserviert und verteilt werden. Um die Verwaltung zu vereinfachen, wird zwischen Nummern, die in Gebrauch sind, und freien Nummern deutlich unterschieden. Die Numbers-App unterstützt das Verwalten von CNAM-Datenbank-Updates, das Nachschlagen von Namen eingehender Anrufer und Notrufservices.",
 			"features": [
