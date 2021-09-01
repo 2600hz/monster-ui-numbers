@@ -1,5 +1,6 @@
 ---
 name: monster-ui-application-numbers
+exposure: private
 base_branch: 'origin/5.0'
 metapackage:
   - name: meta-monster-ui
